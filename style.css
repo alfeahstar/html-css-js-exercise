@@ -1,0 +1,261 @@
+
+header{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: linear-gradient(360deg, rgb(22, 71, 145), rgb(178, 212, 250));
+    color: #333; 
+    margin: 0; 
+    padding: 0; 
+    font-family:'Times New Roman', Times, serif; 
+}
+
+.navbar-brand{
+    font-size: 30px;
+    margin-left: 40px;
+    font-weight:bold;
+    color: #06213e!important; 
+}
+
+
+.nav-item .nav-link{
+    font-size: 19px;
+    margin-left: 20px;
+    color: #06213e !important; 
+}
+
+.nav-item .nav-link:hover {
+    color: #fff !important;   
+    transition: color 0.3s ease, text-decoration 0.3s ease; 
+}
+
+
+.nav-item .nav-link[href="#"]:hover {
+    color: #fff !important; 
+}
+
+
+/*----------------PORTFOLIO------------------*/
+
+#portfolio_section h1{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #020a4b;
+    font-weight: bold;
+}
+
+.portfolio_card{ 
+    background-color: #36486b;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.portfolio_card img {
+    object-fit:cover;
+    height: 200px;
+    width:400px;
+    border-radius: 1px;
+    margin-bottom: 15px;
+}
+
+.card-title{
+    color:#fff;
+    font-size: 27px;
+}
+
+.card-text{
+    color:#fff;
+}
+
+#portfolio_section .portfolio_card .btn-primary{
+    background:#55c4ff;
+    border: #55c4ff;
+    color:#000;
+    margin-left: 71%;
+    padding: 5px;
+    width: 110px
+ 
+}
+.portfolio_card .btn-primary{
+    font-size:17px;
+}
+
+#portfolio_section .portfolio_card .btn-primary:hover{
+    background: #012250; 
+    color: #fff;
+}
+
+#project1 .modal-header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    padding-top: 5%; 
+}
+
+#project1 .modal-title {
+    margin: 0; 
+    text-align: center;
+}
+
+#project1 .btn-close {
+    position: absolute;
+    right: 1rem; 
+    top: 1rem; 
+    margin-left: auto; 
+}
+
+#project2 .modal-header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    padding-top: 5%; 
+}
+
+#project2 .modal-title {
+    margin: 0; 
+    text-align: center; 
+}
+
+#project2 .btn-close {
+    position: absolute;
+    right: 1rem; 
+    top: 1rem; 
+    margin-left: auto; 
+}
+
+#project3 .modal-header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    padding-top: 5%; 
+}
+
+#project3 .modal-title {
+    margin: 0;
+    text-align: center; 
+}
+
+#project3 .btn-close {
+    position: absolute;
+    right: 1rem; 
+    top: 1rem; 
+    margin-left: auto; 
+}
+
+
+.image1 {
+    width: 70%;
+    margin: 0 auto; 
+    display: block;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px; 
+}
+
+.text1 {
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #000;
+    text-align: justify; 
+    padding: 0 20px; 
+}
+
+.image2 {
+    width: 70%;
+    margin: 0 auto; 
+    display: block;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px; 
+}
+
+.text2 {
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #000;
+    text-align: justify; 
+    padding: 0 20px; 
+}
+
+.image3 {
+    width: 70%;
+    margin: 0 auto; 
+    display: block;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px; 
+}
+
+.text3 {
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #000;
+    text-align: justify; 
+    padding: 0 20px; 
+}
+
+
+
+/*----------------CONTACT------------------*/
+
+
+#contact h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #020a4b;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.form-label{
+    color: #fff;
+    font-size: 17px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+
+#contact #contact-form {
+    max-width: 1000px;
+    width: 100%;
+    background-color: #06213e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact #contact-form .form-control {
+    margin-bottom: 20px;
+}
+
+#contact #contact-form .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background: #55c4ff;
+    border: #55c4ff;
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+#contact .contact-form .btn-primary:hover{
+    background: #2b56b3;
+    color: #fff;
+}
